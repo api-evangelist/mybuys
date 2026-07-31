@@ -1,8 +1,24 @@
 aid: mybuys
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mybuys.png
 name: Mybuys
-description: Mybuys is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: MyBuys was a San Mateo, California cross-channel retail personalization company founded in
+  2002 that delivered coordinated product recommendations and targeted offers across websites, email,
+  and display advertising using a patented portfolio of real-time optimization algorithms and an Active
+  Shopper Database. MyBuys merged with digital advertising firm Magnetic in 2015, and Magnetic sold the
+  MyBuys merchandising/personalization business to Evergage in January 2018. The company is defunct as an
+  independent entity; the mybuys.com domain resolves but serves no live product, and there is no
+  developer portal, documentation, or public API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/mybuys/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,29 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Merged into Magnetic (2015); MyBuys merchandising business acquired by Evergage (2018).
+  No live product, developer portal, or API surface as of enrichment.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Personalization
+- Ecommerce
+- Retail
+- Recommendations
+- Marketing
+- Advertising
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
