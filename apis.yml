@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: Merged into Magnetic (2015); MyBuys merchandising business acquired by Evergage (2018).
   No live product, developer portal, or API surface as of enrichment.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
