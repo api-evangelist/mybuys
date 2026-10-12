@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/mybuys/integrations
+- https://n8n.io/integrations/mybuys/
+- https://composio.dev/toolkits/mybuys
+- https://monid.ai/tools/mybuys
+checked:
+- https://composio.dev/toolkits/mybuys
+- https://monid.ai/tools/mybuys
+- https://n8n.io/integrations/mybuys/
+- https://zapier.com/apps/mybuys/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
